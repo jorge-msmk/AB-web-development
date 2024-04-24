@@ -21,4 +21,25 @@ export const routes: Routes = [
     {
         path: 'jorge', component: MainJorgeComponent
     },
+  {
+        path: 'adrian', component: MainAdrianComponent
+    },
+    {
+        path: 'ramon', component: MainRamonComponent
+      },
+    {
+        path: 'marco', component: MainMarcoComponent
+       },
+    {
+        path: 'sebas', component: MainSebasComponent
+    },
+    {
+        path: 'marcos', component: MainMarcosbcComponent
+    },
+    {
+        path: 'ibra', component: MainIbraComponent
+    },
+    {
+        path: 'oubaid', component: MainOubaidComponent
+    },
 ];
