@@ -32,6 +32,7 @@ export const routes: Routes = [
     {
         path: 'sebas', component: MainSebasComponent
     },
+    {
         path: 'marcos', component: MainMarcosbcComponent
     },
     {
