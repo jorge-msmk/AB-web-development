@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MainRamonComponent } from './main-ramon.component';
+import { MainJorgeComponent } from './main-jorge.component';
 
-describe('MainRamonComponent', () => {
-  let component: MainRamonComponent;
-  let fixture: ComponentFixture<MainRamonComponent>;
+describe('MainJorgeComponent', () => {
+  let component: MainJorgeComponent;
+  let fixture: ComponentFixture<MainJorgeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MainRamonComponent]
+      imports: [MainJorgeComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(MainRamonComponent);
+    fixture = TestBed.createComponent(MainJorgeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
