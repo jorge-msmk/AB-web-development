@@ -42,4 +42,7 @@ export const routes: Routes = [
     {
         path: 'oubaid', component: MainOubaidComponent
     },
+    {
+        path: 'carlos', component: MainCarlosComponent
+    },
 ];
