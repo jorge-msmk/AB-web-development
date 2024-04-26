@@ -9,6 +9,7 @@ import { MainSebasComponent } from './pages/sebas/main-sebas/main-sebas.componen
 import { MainIbraComponent } from './pages/ibra/main-ibra/main-ibra.component';
 import { MainOubaidComponent } from './pages/oubaid/main-oubaid/main-oubaid.component';
 import { MainMarcosbcComponent } from './pages/marcosbc/main-marcosbc/main-marcosbc.component';
+import { MainSamanthaComponent } from './pages/samantha/main-samantha/main-samantha.component';
 
 
 export const routes: Routes = [
@@ -44,5 +45,8 @@ export const routes: Routes = [
     },
     {
         path: 'carlos', component: MainCarlosComponent
+    },
+    {
+        path: 'samantha', component: MainSamanthaComponent
     },
 ];
