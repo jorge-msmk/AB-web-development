@@ -5,10 +5,10 @@ import { MainCarlosComponent } from './pages/carlos/main-carlos/main-carlos.comp
 import { MainAdrianComponent } from './pages/adrian/main-adrian/main-adrian.component';
 import { MainRamonComponent } from './pages/ramon/main-ramon/main-ramon.component';
 import { MainMarcoComponent } from './pages/marco/main-marco/main-marco.component';
-import { MainSebasComponent } from './pages/Sebas/main-sebas/main-sebas.component';
-import { MainMarcosbcComponent } from './pages/MarcosBC/main-marcosbc/main-marcosbc.component';
+import { MainSebasComponent } from './pages/sebas/main-sebas/main-sebas.component';
 import { MainIbraComponent } from './pages/ibra/main-ibra/main-ibra.component';
 import { MainOubaidComponent } from './pages/oubaid/main-oubaid/main-oubaid.component';
+import { MainMarcosbcComponent } from './pages/marcosbc/main-marcosbc/main-marcosbc.component';
 
 
 export const routes: Routes = [
