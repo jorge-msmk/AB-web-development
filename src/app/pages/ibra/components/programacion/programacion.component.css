@@ -1,0 +1,46 @@
+/* Estilos generales */
+.js-wrapper {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Para centrar el contenido */
+  }
+  
+  .js-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .section-wrapper {
+    margin-bottom: 30px;
+  }
+  
+  .section-title {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .item-list {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item-list p {
+    flex: 1;
+    margin: 0;
+  }
+  
+  /* Estilos para hover */
+  .item-list:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
