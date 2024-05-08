@@ -1,30 +1,74 @@
+/* Estilo global */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Envoltura principal */
 .js-wrapper {
-    margin: 20px;
-    padding: 20px;
-    border: 2px solid #385a7c;
-    background-color: #f7f7f7;
-    color: #333333;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
-  
-  .js-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .item-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .title {
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  .description {
-    color: #666666;
-  }
-  
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Transición suave para los bordes */
+.js-wrapper:hover {
+  border-color: #bbb; /* Cambia el color del borde al pasar el cursor sobre la envoltura */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Aumenta la intensidad de la sombra al pasar el cursor */
+}
+
+/* Títulos */
+.js-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: underline; /* Subrayado */
+  margin-bottom: 20px;
+  transition: color 0.3s ease; /* Transición suave para el cambio de color al pasar el cursor */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+/* Animación para los títulos al pasar el cursor */
+.js-title:hover {
+  transform: translateY(-3px); /* Levita ligeramente al pasar el cursor */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de texto suave */
+}
+
+/* Secciones */
+.section-wrapper {
+  margin-top: 30px;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Lista de elementos */
+.item-list {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
+}
+
+.item-list:hover {
+  background-color: #f5f5f5; /* Cambia el color de fondo al pasar el cursor */
+}
+
+.item-list p {
+  display: inline;
+}
+
+.item-list p:first-child {
+  font-weight: bold;
+}
+
+.item-list p:last-child {
+  margin-left: 15px;
+}

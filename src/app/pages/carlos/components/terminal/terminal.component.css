@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los títulos */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de lista */
+li {
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilos para los títulos de comandos */
+strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Efecto de parpadeo al seleccionar */
+li:hover {
+    background-color: #e0e0e0;
+}
+
+/* Efecto de elevación al pasar el cursor */
+li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

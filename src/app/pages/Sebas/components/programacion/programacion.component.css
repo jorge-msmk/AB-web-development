@@ -1,0 +1,37 @@
+.js-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.js-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.section-wrapper {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.item-list {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.item-list:last-child {
+  border-bottom: none;
+}
+
+p {
+  color: #888;
+}
