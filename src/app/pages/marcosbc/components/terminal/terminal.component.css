@@ -1,0 +1,56 @@
+.js-wrapper {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: aparecerPorIzquierda 5s forwards;
+}
+
+/* Keyframes para la animación */
+@keyframes aparecerPorIzquierda {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Estilo para los títulos de sección */
+.js-wrapper h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+/* Estilo para los contenedores de sección */
+.section-wrapper {
+    margin-bottom: 20px;
+}
+
+/* Estilo para los títulos de los elementos */
+.section-title {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las listas de elementos */
+.item-list {
+    margin-bottom: 10px;
+}
+
+/* Estilo para los elementos de lista */
+.item-list li {
+    margin-bottom: 20px; /* Espacio entre cada descripción */
+}
+
+/* Estilo para las descripciones de los elementos */
+.item-list span {
+    color: #000000;
+}
