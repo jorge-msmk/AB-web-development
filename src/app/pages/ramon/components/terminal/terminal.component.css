@@ -1,0 +1,263 @@
+/* Style for the container */
+.command-container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style for each category */
+.command-category {
+    margin-bottom: 20px;
+}
+
+/* Style for the category headings */
+.command-category h2 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the command list */
+.command-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each command item */
+.command-item {
+    margin-bottom: 10px;
+}
+
+/* Style for command titles */
+.command-title {
+    font-weight: bold;
+}
+
+/* Style for command descriptions */
+.command-description {
+    color: #666;
+}
+
+
+/* Keyframe animation for wave */
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Style for the container */
+.command-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    /* Text color changed to white for better visibility */
+    line-height: 1.6;
+    overflow: hidden;
+    background-color: #3a1c10;
+    /* Dark brown background color */
+    border-radius: 10px;
+    /* Rounded corners for the container */
+    padding: 20px;
+    /* Add padding for better readability */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Box shadow for depth */
+}
+
+/* Dragon scales background */
+.command-container::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    /* Adjust the position to cover the top */
+    left: -100px;
+    /* Adjust the position to cover the left */
+    width: 200%;
+    height: 200%;
+    background-image: url('https://storage.googleapis.com/pod_public/1300/175822.jpg');
+    /* Your dragon scales image */
+    background-size: 200px;
+    /* Adjust the scale of the background image */
+    z-index: -1;
+    pointer-events: none;
+    /* Make sure the background doesn't interfere with interaction */
+}
+
+
+
+
+/* Keyframe animation for wave */
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Style for the container */
+.command-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #faf9f9;
+    /* Text color */
+    line-height: 1.6;
+    background: white(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+/* Shimmer effect */
+.command-container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: white(255, 255, 255, 0.2);
+    /* Soft white background with transparency */
+    border-radius: 50%;
+    animation: shimmer 2s infinite linear;
+    z-index: -1;
+    /* Push the shimmer behind other content */
+}
+
+/* Keyframe animation for shimmer */
+@keyframes shimmer {
+    0% {
+        transform: translate(-150%, -150%);
+    }
+
+    100% {
+        transform: translate(150%, 150%);
+    }
+}
+
+/* Style for the container */
+.command-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    /* Text color */
+    line-height: 1.6;
+    overflow: hidden;
+}
+
+/* Style for the container */
+.command-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Georgia', serif;
+    /* Elegant serif font */
+    color: #333;
+    /* Text color */
+    line-height: 1.6;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    /* Light gray background */
+    border: 4px solid #8b4513;
+    /* Dark brown border */
+    border-radius: 10px;
+    /* Rounded corners for elegance */
+    padding: 20px;
+    /* Add padding for better readability */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Subtle box shadow for depth */
+}
+
+
+
+/* Royal seal */
+.command-container::after {
+    content: 'Royal Command';
+    position: absolute;
+    bottom: -30px;
+    /* Adjust position */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #8b4513;
+    /* Dark brown color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style for the container */
+.command-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    /* Futuristic font */
+    color: #fff;
+    /* Text color */
+    line-height: 1.6;
+    overflow: hidden;
+    background-color: #1a1a1a;
+    /* Dark background */
+    border-radius: 20px;
+    /* Rounded corners */
+    padding: 40px;
+    /* Add padding for better readability */
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.1);
+    /* Glowing effect */
+}
+
+/* Glowing border effect */
+.command-container::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 30px;
+    /* Slightly larger than the container */
+    background: radial-gradient(circle at center, #fff0 0%, #fff 70%);
+    /* Glowing gradient */
+    animation: pulse 4s infinite alternate;
+    /* Glowing animation */
+    z-index: -1;
+}
+
+/* Keyframe animation for glowing effect */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+}
+
+/* Futuristic text effect */
+.command-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    /* Text shadow for glow */
+}
+
+/* Enchanted content */
+.command-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    opacity: 0.9;
+}

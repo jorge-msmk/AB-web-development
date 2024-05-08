@@ -1,10 +1,12 @@
-<div>
-    <h2>Comandos Básicos</h2>
-    <ul>
-        <li *ngFor="let item of terminalNotes.basics">
-            <strong>{{ item.title }}:</strong> {{ item.description }}
-        </li>
-    </ul>
+<div class="command-container">
+    <div class="command-category">
+        <h2>Comandos Básicos</h2>
+        <ul class="command-list">
+            <li *ngFor="let item of terminalNotes.basics">
+                <strong>{{ item.title }}:</strong> {{ item.description }}
+            </li>
+        </ul>
+    </div>
 
     <h2>Comandos de Git</h2>
     <ul>
