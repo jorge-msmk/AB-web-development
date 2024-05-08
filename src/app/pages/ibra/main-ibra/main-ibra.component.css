@@ -1,0 +1,19 @@
+
+.page-jorge-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+  }
+  
+
+  app-sidemenu {
+    width: 250px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  app-apuntes {
+    margin-left: 20px; 
+  }

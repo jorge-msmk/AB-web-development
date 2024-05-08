@@ -1,0 +1,8 @@
+<div class="page-samantha-wrapper">
+    <div class="sidemenu">
+        <app-sidemenu (optionChanged)="onOptionChanged($event)"></app-sidemenu>
+    </div>
+    <div class="main-content">
+        <app-apuntes [optionShow]="isOptionVisible"></app-apuntes>
+    </div>
+</div>

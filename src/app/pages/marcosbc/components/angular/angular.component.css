@@ -1,0 +1,49 @@
+.ang-wrapper {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: aparecerPorIzquierda 5s forwards;
+}
+
+@keyframes aparecerPorIzquierda {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.ang-title {
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.item-list {
+    margin-bottom: 50px;
+}
+
+.item-info {
+    display: flex;
+}
+
+.item-info .name {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.item-info .title {
+    font-weight: bold;
+}
+
+.item-info .description {
+    color: #666;
+    margin-left: 10px;
+}
