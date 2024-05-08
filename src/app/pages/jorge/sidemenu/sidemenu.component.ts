@@ -36,12 +36,9 @@ export class SidemenuComponent {
       terminal: false,
       programacion: false
     };
-
     this.isOptionVisible[option] = !this.isOptionVisible[option];
     this.optionChanged.emit(this.isOptionVisible);
-    
+  
   }
-
-
 
 }

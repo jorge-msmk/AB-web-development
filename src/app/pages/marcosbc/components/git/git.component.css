@@ -1,4 +1,51 @@
-ul li {
+.container {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    animation: aparecerPorIzquierda 5s forwards;
+}
+
+@keyframes aparecerPorIzquierda {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.ang-wrapper, .git-wrapper {
+    font-family: Arial, sans-serif;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ang-title, h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.item-list, ul {
+    margin-bottom: 15px;
+}
+
+.item-info, .list-element {
     display: flex;
-    flex-direction: row;
+}
+
+.item-info .title, .title-description {
+    font-weight: bold;
+}
+
+.item-info .description {
+    color: #666;
+    margin-left: 5px;
 }
