@@ -2,3 +2,21 @@
     display: flex;
     flex-direction: row;
 }
+
+.page-jorge-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-sidemenu {
+    /* Estilos para el menú lateral */
+    width: 250px;
+    background-color: #f0f0f0;
+}
+
+.app-apuntes {
+    /* Estilos para la sección de apuntes */
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
