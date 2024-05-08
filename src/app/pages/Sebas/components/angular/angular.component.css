@@ -1,0 +1,34 @@
+.ang-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ang-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.item-list {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.item-list:last-child {
+  border-bottom: none;
+}
+
+.title {
+  font-weight: bold;
+  color: #666;
+}
+
+.description {
+  color: #888;
+}
+
+
