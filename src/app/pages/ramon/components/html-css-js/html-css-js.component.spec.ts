@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HtmlCssJsComponent } from './html-css-js.component';
+import { HtmlCssJsComponent } from './HtmlCssJsComponent';
 
 describe('HtmlCssJsComponent', () => {
   let component: HtmlCssJsComponent;

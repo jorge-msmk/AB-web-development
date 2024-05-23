@@ -3,7 +3,7 @@ import { GitComponent } from '../components/git/git.component';
 import { CommonModule } from '@angular/common';
 import { ProgramacionComponent } from '../components/programacion/programacion.component';
 import { AngularComponent } from '../components/angular/angular.component';
-import { HtmlCssJsComponent } from '../components/html-css-js/html-css-js.component';
+import { HtmlCssJsComponent } from '../components/html-css-js/HtmlCssJsComponent';
 import { TerminalComponent } from '../components/terminal/terminal.component';
 
 type OptionsVisibility = {

@@ -1,1 +1,73 @@
-<p>html-css-js works!</p>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Completa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bienvenido a Mi Página</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Acerca de mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#portfolio">Portafolio</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Acerca de mí</h2>
+                <p>Hola, soy un desarrollador web apasionado por crear soluciones innovadoras y eficientes. Tengo experiencia en diversas tecnologías y disfruto aprender y mejorar constantemente.</p>
+            </div>
+        </section>
+        <section id="services" class="section">
+            <div class="container">
+                <h2>Servicios</h2>
+                <ul>
+                    <li>Desarrollo Web</li>
+                    <li>Diseño Gráfico</li>
+                    <li>SEO y Marketing Digital</li>
+                    <li>Consultoría Tecnológica</li>
+                </ul>
+            </div>
+        </section>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portafolio</h2>
+                <div class="grid">
+                    <div class="grid-item">Proyecto 1</div>
+                    <div class="grid-item">Proyecto 2</div>
+                    <div class="grid-item">Proyecto 3</div>
+                    <div class="grid-item">Proyecto 4</div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form id="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mi Página. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
