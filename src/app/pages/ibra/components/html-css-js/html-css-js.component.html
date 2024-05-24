@@ -1,69 +1,100 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apuntes de HTML, CSS y Java</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        pre {
-            background: #eee;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            font-family: "Courier New", Courier, monospace;
-            background: #eaeaea;
-            padding: 2px 4px;
-            border-radius: 3px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Apuntes de HTML, CSS y Java</h1>
+<h1>
+    conceptos basicos de html,css y js
+</h1>
 
-    <h2>HTML</h2>
-    <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Se utiliza para estructurar y presentar contenido en la web.</p>
-    <h3>Ejemplo básico de HTML:</h3>
-    <pre><code>&lt;!DOCTYPE html&gt;
+
+
+<body>
+    <header>
+        <h1>Apuntes de HTML, CSS y JavaScript</h1>
+    </header>
+    <main>
+        <section id="html">
+            <h2>HTML (HyperText Markup Language)</h2>
+            <p>HTML es el lenguaje estándar para crear páginas web. Utiliza una estructura de etiquetas para definir el
+                contenido de la página.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Etiqueta</strong>: Representa un elemento HTML, escrita entre <code>&lt;&gt;</code>.
+                    Ejemplo: <code>&lt;p&gt;</code></li>
+                <li><strong>Atributos</strong>: Proporcionan información adicional sobre un elemento, escritos dentro de
+                    la etiqueta. Ejemplo: <code>&lt;a href="https://example.com"&gt;</code></li>
+                <li><strong>Estructura básica</strong>:
+                    <pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
     &lt;title&gt;Título de la página&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
     &lt;h1&gt;Encabezado&lt;/h1&gt;
-    &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+    &lt;p&gt;Párrafo de texto&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;</code></pre>
+                </li>
+            </ul>
+        </section>
 
-    <h2>CSS</h2>
-    <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de un documento escrito en HTML o XML. CSS controla el diseño de múltiples páginas web a la vez.</p>
-    <h3>Ejemplo básico de CSS:</h3>
-    <pre><code>body {
-    background-color: lightblue;
-}
+        <section id="css">
+            <h2>CSS (Cascading Style Sheets)</h2>
+            <p>CSS es el lenguaje utilizado para describir la presentación de documentos HTML. Permite aplicar estilos
+                como colores, fuentes y espaciamiento.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Selección de elementos</strong>: Utiliza selectores para aplicar estilos a elementos
+                    específicos. Ejemplo: <code>p  color: red; </code></li>
+                <li><strong>Propiedades y valores</strong>: Cada estilo se define con una propiedad y su valor. Ejemplo:
+                    <code>color: blue;</code></li>
+                <li><strong>Incorporación de CSS</strong>:
+                    <ul>
+                        <li><strong>En línea</strong>: <code>&lt;p style="color: red;"&gt;Texto&lt;/p&gt;</code></li>
+                        <li><strong>Interno</strong>: Dentro de una etiqueta <code>&lt;style&gt;</code> en el
+                            <code>&lt;head&gt;</code>. Ejemplo:
+                            <pre><code>&lt;style&gt;
+p 
+    color: green;
 
-h1 {
-    color: navy;
-    margin-left: 20px;
-}</code></pre>
+&lt;/style&gt;</code></pre>
+                        </li>
+                        <li><strong>Externo</strong>: En un archivo CSS separado enlazado con <code>&lt;link&gt;</code>.
+                            Ejemplo: <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-    <h2>Java</h2>
-    <p>Java es un lenguaje de programación de propósito general que es concurrente, basado en clases y orientado a objetos. Está diseñado para tener la menor cantidad de dependencias de implementación posibles.</p>
-    <h3>Ejemplo básico de Java:</h3>
-    <pre><code>public class HolaMundo {
-    public static void main(String[] args) {
-        System.out.println("¡Hola, mundo!");
-    }
-}</code></pre>
+        <section id="js">
+            <h2>JavaScript</h2>
+            <p>JavaScript es un lenguaje de programación que permite crear contenido dinámico y interactivo en las
+                páginas web.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Incorporación de JavaScript</strong>:
+                    <ul>
+                        <li><strong>Interno</strong>: Dentro de una etiqueta <code>&lt;script&gt;</code>. Ejemplo:
+                            <pre><code>&lt;script&gt;
+console.log("Hola, mundo!");
+&lt;/script&gt;</code></pre>
+                        </li>
+                        <li><strong>Externo</strong>: En un archivo JS separado enlazado con
+                            <code>&lt;script&gt;</code>. Ejemplo:
+                            <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></li>
+                    </ul>
+                </li>
+                <li><strong>Variables</strong>: Utilizadas para almacenar datos. Ejemplo:
+                    <code>var nombre = "Juan";</code></li>
+                <li><strong>Funciones</strong>: Bloques de código que realizan una tarea específica. Ejemplo:
+                    <pre><code>function saludar() 
+    alert("Hola, mundo!");
+
+saludar();</code></pre>
+                </li>
+                <li><strong>Eventos</strong>: Acciones que pueden ser detectadas por JavaScript, como clics. Ejemplo:
+                    <pre><code>&lt;button onclick="saludar()"&gt;Haz clic&lt;/button&gt;</code></pre>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Apuntes de HTML, CSS y JavaScript</p>
+    </footer>
 </body>
-</html>
