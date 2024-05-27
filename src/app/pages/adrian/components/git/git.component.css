@@ -1,22 +1,52 @@
-/* Estilo para el título de la lista */
-h3 {
-    font-size: 24px;
-    color: #333; /* Color del texto */
-    margin-bottom: 10px; /* Espacio inferior */
+/* Estilos para el contenedor principal */
+.git-wraper-adrian {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
 }
 
-/* Estilo para los elementos de la lista */
+/* Estilos para el título principal */
+.git-wraper-adrian h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la lista */
+.git-wraper-adrian ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
 .list-element {
-    margin-bottom: 15px; /* Espacio inferior entre elementos */
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
 }
 
-/* Estilo para el título de cada comando */
-.title-description {
-    font-weight: bold; /* Texto en negrita */
-}
-
-/* Estilo para el texto de descripción de cada comando */
+/* Estilos para los párrafos dentro de los elementos de la lista */
 .list-element p {
-    margin-top: 5px; /* Espacio superior */
-    color: #666; /* Color del texto de descripción */
+    margin: 0;
+    color: #555;
+}
+
+/* Estilos para el nombre de los elementos */
+.list-element .title-description {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la descripción de los elementos */
+.list-element p:last-child {
+    margin-left: 10px;
 }
