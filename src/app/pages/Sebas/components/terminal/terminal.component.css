@@ -7,7 +7,7 @@ body {
 }
 
 
-div.container {
+div .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
@@ -18,8 +18,8 @@ div.container {
 
 
 h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size:28px;
+    margin-bottom:15px;
     color: #333; 
 }
 

@@ -1,0 +1,60 @@
+/* Estilos para el contenedor principal */
+.js-wrapper-adrian {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título principal */
+.js-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los contenedores de sección */
+.section-wrapper {
+    margin-bottom: 30px;
+}
+
+/* Estilos para los títulos de sección */
+.section-title {
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la lista de elementos */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.item-list {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para los párrafos dentro de los elementos de la lista */
+.item-list p {
+    margin: 0 10px;
+    color: #555;
+}
+
+/* Estilos para el nombre de los elementos */
+.item-list p:first-child {
+    font-weight: bold;
+    color: #333;
+}

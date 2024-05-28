@@ -1,1 +1,100 @@
-<p>html-css-js works!</p>
+<h1>
+    conceptos basicos de html,css y js
+</h1>
+
+
+
+<body>
+    <header>
+        <h1>Apuntes de HTML, CSS y JavaScript</h1>
+    </header>
+    <main>
+        <section id="html">
+            <h2>HTML (HyperText Markup Language)</h2>
+            <p>HTML es el lenguaje estándar para crear páginas web. Utiliza una estructura de etiquetas para definir el
+                contenido de la página.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Etiqueta</strong>: Representa un elemento HTML, escrita entre <code>&lt;&gt;</code>.
+                    Ejemplo: <code>&lt;p&gt;</code></li>
+                <li><strong>Atributos</strong>: Proporcionan información adicional sobre un elemento, escritos dentro de
+                    la etiqueta. Ejemplo: <code>&lt;a href="https://example.com"&gt;</code></li>
+                <li><strong>Estructura básica</strong>:
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Título de la página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Encabezado&lt;/h1&gt;
+    &lt;p&gt;Párrafo de texto&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                </li>
+            </ul>
+        </section>
+
+        <section id="css">
+            <h2>CSS (Cascading Style Sheets)</h2>
+            <p>CSS es el lenguaje utilizado para describir la presentación de documentos HTML. Permite aplicar estilos
+                como colores, fuentes y espaciamiento.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Selección de elementos</strong>: Utiliza selectores para aplicar estilos a elementos
+                    específicos. Ejemplo: <code>p  color: red; </code></li>
+                <li><strong>Propiedades y valores</strong>: Cada estilo se define con una propiedad y su valor. Ejemplo:
+                    <code>color: blue;</code></li>
+                <li><strong>Incorporación de CSS</strong>:
+                    <ul>
+                        <li><strong>En línea</strong>: <code>&lt;p style="color: red;"&gt;Texto&lt;/p&gt;</code></li>
+                        <li><strong>Interno</strong>: Dentro de una etiqueta <code>&lt;style&gt;</code> en el
+                            <code>&lt;head&gt;</code>. Ejemplo:
+                            <pre><code>&lt;style&gt;
+p 
+    color: green;
+
+&lt;/style&gt;</code></pre>
+                        </li>
+                        <li><strong>Externo</strong>: En un archivo CSS separado enlazado con <code>&lt;link&gt;</code>.
+                            Ejemplo: <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="js">
+            <h2>JavaScript</h2>
+            <p>JavaScript es un lenguaje de programación que permite crear contenido dinámico y interactivo en las
+                páginas web.</p>
+            <h3>Conceptos básicos:</h3>
+            <ul>
+                <li><strong>Incorporación de JavaScript</strong>:
+                    <ul>
+                        <li><strong>Interno</strong>: Dentro de una etiqueta <code>&lt;script&gt;</code>. Ejemplo:
+                            <pre><code>&lt;script&gt;
+console.log("Hola, mundo!");
+&lt;/script&gt;</code></pre>
+                        </li>
+                        <li><strong>Externo</strong>: En un archivo JS separado enlazado con
+                            <code>&lt;script&gt;</code>. Ejemplo:
+                            <code>&lt;script src="script.js"&gt;&lt;/script&gt;</code></li>
+                    </ul>
+                </li>
+                <li><strong>Variables</strong>: Utilizadas para almacenar datos. Ejemplo:
+                    <code>var nombre = "Juan";</code></li>
+                <li><strong>Funciones</strong>: Bloques de código que realizan una tarea específica. Ejemplo:
+                    <pre><code>function saludar() 
+    alert("Hola, mundo!");
+
+saludar();</code></pre>
+                </li>
+                <li><strong>Eventos</strong>: Acciones que pueden ser detectadas por JavaScript, como clics. Ejemplo:
+                    <pre><code>&lt;button onclick="saludar()"&gt;Haz clic&lt;/button&gt;</code></pre>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Apuntes de HTML, CSS y JavaScript</p>
+    </footer>
+</body>
