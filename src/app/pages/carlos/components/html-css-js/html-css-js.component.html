@@ -1,1 +1,114 @@
-<p>html-css-js works!</p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apuntes sobre HTML, CSS y JavaScript</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            margin: 20px;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .section {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .section ul {
+            margin: 10px 0 0 20px;
+        }
+        .section li {
+            margin-bottom: 10px;
+        }
+        .code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apuntes sobre HTML, CSS y JavaScript</h1>
+
+    <div class="section">
+        <h2>HTML (HyperText Markup Language)</h2>
+        <p>HTML es el lenguaje de marcado estándar para crear páginas web. Se utiliza para estructurar el contenido en la web y definir elementos como encabezados, párrafos, enlaces, imágenes y más.</p>
+        <h3>Características principales:</h3>
+        <ul>
+            <li>Estructura el contenido web.</li>
+            <li>Utiliza etiquetas (<span class="code">&lt;tag&gt;</span>) para definir elementos.</li>
+            <li>Es el componente básico de cualquier página web.</li>
+            <li>Permite incrustar otros lenguajes como CSS y JavaScript.</li>
+        </ul>
+        <h3>Etiquetas comunes:</h3>
+        <ul>
+            <li><span class="code">&lt;!DOCTYPE html&gt;</span>: Define el tipo de documento.</li>
+            <li><span class="code">&lt;html&gt;</span>: Contiene todo el contenido HTML.</li>
+            <li><span class="code">&lt;head&gt;</span>: Contiene metadatos y enlaces a CSS/JS.</li>
+            <li><span class="code">&lt;title&gt;</span>: Define el título de la página.</li>
+            <li><span class="code">&lt;body&gt;</span>: Contiene el contenido visible de la página.</li>
+            <li><span class="code">&lt;h1&gt; - &lt;h6&gt;</span>: Encabezados de diferentes niveles.</li>
+            <li><span class="code">&lt;p&gt;</span>: Define un párrafo.</li>
+            <li><span class="code">&lt;a&gt;</span>: Define un enlace.</li>
+            <li><span class="code">&lt;img&gt;</span>: Inserta una imagen.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>CSS (Cascading Style Sheets)</h2>
+        <p>CSS es un lenguaje de estilos utilizado para describir la presentación de un documento HTML. CSS controla el aspecto visual de los elementos HTML, incluyendo colores, fuentes, márgenes, disposición y más.</p>
+        <h3>Características principales:</h3>
+        <ul>
+            <li>Separa la presentación del contenido.</li>
+            <li>Permite aplicar estilos a múltiples páginas web de manera eficiente.</li>
+            <li>Utiliza selectores y reglas para definir estilos.</li>
+            <li>Soporta diseños responsivos mediante media queries.</li>
+        </ul>
+        <h3>Conceptos clave:</h3>
+        <ul>
+            <li><strong>Selectores:</strong> Identifican los elementos HTML a los que se aplicarán los estilos. Ejemplos: <span class="code">elemento</span>, <span class="code">#id</span>, <span class="code">.clase</span>.</li>
+            <li><strong>Propiedades:</strong> Definen los estilos que se aplicarán a los elementos seleccionados. Ejemplos: <span class="code">color</span>, <span class="code">font-size</span>, <span class="code">margin</span>.</li>
+            <li><strong>Valores:</strong> Especifican el valor de una propiedad. Ejemplos: <span class="code">red</span>, <span class="code">16px</span>, <span class="code">10px</span>.</li>
+            <li><strong>Box Model:</strong> Modelo de caja que describe el diseño y el espaciado de los elementos HTML.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>JavaScript (JS)</h2>
+        <p>JavaScript es un lenguaje de programación que se utiliza para crear contenido web interactivo. JS permite agregar dinámicas a las páginas web, como responder a eventos del usuario, validar formularios, crear animaciones y mucho más.</p>
+        <h3>Características principales:</h3>
+        <ul>
+            <li>Lenguaje de programación orientado a objetos.</li>
+            <li>Se ejecuta en el navegador del cliente.</li>
+            <li>Permite la manipulación del DOM (Document Object Model).</li>
+            <li>Soporta programación asíncrona mediante promesas, async/await.</li>
+        </ul>
+        <h3>Conceptos clave:</h3>
+        <ul>
+            <li><strong>DOM (Document Object Model):</strong> Representación estructurada del documento HTML que permite manipular su contenido y estructura.</li>
+            <li><strong>Eventos:</strong> Mecanismo que permite ejecutar código JS en respuesta a acciones del usuario (como clics, teclas presionadas, etc.).</li>
+            <li><strong>Funciones:</strong> Bloques de código reutilizables que realizan una tarea específica.</li>
+            <li><strong>AJAX:</strong> Técnica para realizar solicitudes asíncronas al servidor sin recargar la página.</li>
+            <li><strong>API (Application Programming Interface):</strong> Conjunto de funciones y procedimientos que permiten la creación de aplicaciones que acceden a las características o datos de un sistema operativo, biblioteca o servicio.</li>
+        </ul>
+    </div>
+</body>
+</html>
