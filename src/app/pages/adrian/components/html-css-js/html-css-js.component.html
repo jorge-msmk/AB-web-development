@@ -1,1 +1,52 @@
-<p>html-css-js works!</p>
+<body>
+    <div class="container">
+        <h1>Apuntes Básicos</h1>
+
+        <section>
+            <h2>HTML</h2>
+            <p>HTML (HyperText Markup Language) es el estándar para crear páginas web. Es un lenguaje de marcado que define la estructura de una página web mediante el uso de elementos y etiquetas.</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Título de la página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Encabezado&lt;/h1&gt;
+    &lt;p&gt;Este es un párrafo.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>CSS</h2>
+            <p>CSS (Cascading Style Sheets) es un lenguaje de estilos utilizado para describir la presentación de documentos HTML. CSS controla el diseño, el color, las fuentes y el espaciado de los elementos en una página web.</p>
+            <pre><code>body 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+
+h1 
+    color: #333;
+
+
+p 
+    color: #666;
+
+            </code></pre>
+        </section>
+
+        <section>
+            <h2>JavaScript</h2>
+            <p>JavaScript es un lenguaje de programación que permite agregar interactividad y comportamiento dinámico a las páginas web. Se utiliza para crear elementos interactivos como formularios, juegos, animaciones y mucho más.</p>
+            <pre><code>document.addEventListener('DOMContentLoaded', function() 
+    document.querySelector('h1').textContent = 'Hola, Mundo!';
+);
+
+function mostrarMensaje() 
+    alert('¡Hola desde JavaScript!');
+
+            </code></pre>
+        </section>
+    </div>
+</body>
