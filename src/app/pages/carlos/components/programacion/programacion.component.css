@@ -3,6 +3,8 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
+    margin: 20px;
+    background-color: #f7f9fc;
     color: #333;
     background-color: #f9f9f9;
     margin: 0;
@@ -21,13 +23,21 @@ h3 {
     font-weight: 700;
     color: #007bff;
     margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h4 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #555;
+/* Estilos para los títulos de sección */
+.section-title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
     margin-bottom: 10px;
+}
+
+/* Estilos para las listas */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Estilos para los elementos de lista */
