@@ -7,19 +7,19 @@ body {
 }
 
 
-div.container {
+div .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff; 
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
-    border-radius: 10px;x
+    border-radius: 10px;
 }
 
 
 h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size:28px;
+    margin-bottom:15px;
     color: #333; 
 }
 
