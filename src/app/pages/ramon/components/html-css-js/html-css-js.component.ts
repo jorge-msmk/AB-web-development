@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,7 +6,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './html-css-js.component.html',
-  styleUrl: './html-css-js.component.css'
+  styleUrl: './styles.css'
 })
 export class HtmlCssJsComponent {
 
